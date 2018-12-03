@@ -23,3 +23,9 @@ print(tensor_add)
 
 with tf.Session() as sess:
 	print(sess.run(tensor_add))
+
+# Multiply 
+
+tensor_multiply = tf.multiply(tensor_a,tensor_b)
+with tf.Session() as sess:
+	print(sess.run(tensor_multiply))
